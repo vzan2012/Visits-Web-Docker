@@ -7,4 +7,4 @@ services:
     restart: "no"
     build: .
     ports:
-      - "9000:3000"
+      - "3000:3000"

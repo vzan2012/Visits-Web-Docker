@@ -4,7 +4,7 @@ const redis = require("redis");
 const app = express();
 
 const client = redis.createClient({
-  host: "redis-server",
+  host: "redis-server", // Service Name provided in the Docker Compose file
   port: 6379,
 });
 
